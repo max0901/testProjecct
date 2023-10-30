@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6833202AEF654100F957D4 /* introMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68331F2AEF654100F957D4 /* introMain.swift */; };
+		AC6833222AEF654900F957D4 /* textBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6833212AEF654900F957D4 /* textBox.swift */; };
 		ACB878CF2AECD7DE001A99D4 /* testProjecctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878CE2AECD7DE001A99D4 /* testProjecctApp.swift */; };
 		ACB878D12AECD7DE001A99D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878D02AECD7DE001A99D4 /* ContentView.swift */; };
 		ACB878D32AECD7E0001A99D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB878D22AECD7E0001A99D4 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC68331F2AEF654100F957D4 /* introMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introMain.swift; sourceTree = "<group>"; };
+		AC6833212AEF654900F957D4 /* textBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textBox.swift; sourceTree = "<group>"; };
 		ACB878CB2AECD7DE001A99D4 /* testProjecct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProjecct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB878CE2AECD7DE001A99D4 /* testProjecctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testProjecctApp.swift; sourceTree = "<group>"; };
 		ACB878D02AECD7DE001A99D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC68331E2AEF652400F957D4 /* testIntro */ = {
+			isa = PBXGroup;
+			children = (
+				AC68331F2AEF654100F957D4 /* introMain.swift */,
+				AC6833212AEF654900F957D4 /* textBox.swift */,
+			);
+			path = testIntro;
+			sourceTree = "<group>";
+		};
 		ACB878C22AECD7DE001A99D4 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +72,7 @@
 		ACB878CD2AECD7DE001A99D4 /* testProjecct */ = {
 			isa = PBXGroup;
 			children = (
+				AC68331E2AEF652400F957D4 /* testIntro */,
 				ACB878E62AECEE2D001A99D4 /* simpleview2 */,
 				ACB878CE2AECD7DE001A99D4 /* testProjecctApp.swift */,
 				ACB878D02AECD7DE001A99D4 /* ContentView.swift */,
@@ -157,11 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6833202AEF654100F957D4 /* introMain.swift in Sources */,
 				ACB878D12AECD7DE001A99D4 /* ContentView.swift in Sources */,
 				ACB878CF2AECD7DE001A99D4 /* testProjecctApp.swift in Sources */,
 				ACB878E32AECEA3C001A99D4 /* mtbutton.swift in Sources */,
 				ACB878DF2AECDEBB001A99D4 /* simpleView.swift in Sources */,
 				ACB878E52AECEC94001A99D4 /* textModule.swift in Sources */,
+				AC6833222AEF654900F957D4 /* textBox.swift in Sources */,
 				ACB878E12AECE5BC001A99D4 /* simpleView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
