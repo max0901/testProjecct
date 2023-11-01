@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6743D62AF091F90032AC88 /* lecturecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743D52AF091F90032AC88 /* lecturecode.swift */; };
+		AC6743DA2AF0BD630032AC88 /* modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743D92AF0BD630032AC88 /* modal.swift */; };
+		AC6743DC2AF0C0FF0032AC88 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743DB2AF0C0FF0032AC88 /* Detail.swift */; };
+		AC6743DE2AF0C3E10032AC88 /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743DD2AF0C3E10032AC88 /* navigation.swift */; };
+		AC6743E02AF0C7ED0032AC88 /* myTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743DF2AF0C7ED0032AC88 /* myTap.swift */; };
+		AC6743E22AF0CA4D0032AC88 /* tapDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743E12AF0CA4D0032AC88 /* tapDetail.swift */; };
+		AC6743E62AF0DABD0032AC88 /* myApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743E52AF0DABD0032AC88 /* myApp.swift */; };
+		AC6743E82AF0DD810032AC88 /* FirstListpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743E72AF0DD810032AC88 /* FirstListpage.swift */; };
+		AC6743EA2AF0DE1C0032AC88 /* Onboding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6743E92AF0DE1C0032AC88 /* Onboding1.swift */; };
 		AC6833202AEF654100F957D4 /* introMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68331F2AEF654100F957D4 /* introMain.swift */; };
 		AC6833222AEF654900F957D4 /* textBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6833212AEF654900F957D4 /* textBox.swift */; };
+		AC6833272AEFA32D00F957D4 /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6833262AEFA32D00F957D4 /* ListLoop.swift */; };
 		ACB878CF2AECD7DE001A99D4 /* testProjecctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878CE2AECD7DE001A99D4 /* testProjecctApp.swift */; };
 		ACB878D12AECD7DE001A99D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878D02AECD7DE001A99D4 /* ContentView.swift */; };
 		ACB878D32AECD7E0001A99D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB878D22AECD7E0001A99D4 /* Assets.xcassets */; };
@@ -17,11 +27,23 @@
 		ACB878E12AECE5BC001A99D4 /* simpleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878E02AECE5BC001A99D4 /* simpleView2.swift */; };
 		ACB878E32AECEA3C001A99D4 /* mtbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878E22AECEA3C001A99D4 /* mtbutton.swift */; };
 		ACB878E52AECEC94001A99D4 /* textModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB878E42AECEC94001A99D4 /* textModule.swift */; };
+		ACBE18262AF06C010077DEEF /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE18252AF06C010077DEEF /* state.swift */; };
+		ACBE182A2AF071330077DEEF /* mainsetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE18292AF071330077DEEF /* mainsetting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC6743D52AF091F90032AC88 /* lecturecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecturecode.swift; sourceTree = "<group>"; };
+		AC6743D92AF0BD630032AC88 /* modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modal.swift; sourceTree = "<group>"; };
+		AC6743DB2AF0C0FF0032AC88 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		AC6743DD2AF0C3E10032AC88 /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		AC6743DF2AF0C7ED0032AC88 /* myTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTap.swift; sourceTree = "<group>"; };
+		AC6743E12AF0CA4D0032AC88 /* tapDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapDetail.swift; sourceTree = "<group>"; };
+		AC6743E52AF0DABD0032AC88 /* myApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApp.swift; sourceTree = "<group>"; };
+		AC6743E72AF0DD810032AC88 /* FirstListpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstListpage.swift; sourceTree = "<group>"; };
+		AC6743E92AF0DE1C0032AC88 /* Onboding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboding1.swift; sourceTree = "<group>"; };
 		AC68331F2AEF654100F957D4 /* introMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introMain.swift; sourceTree = "<group>"; };
 		AC6833212AEF654900F957D4 /* textBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textBox.swift; sourceTree = "<group>"; };
+		AC6833262AEFA32D00F957D4 /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
 		ACB878CB2AECD7DE001A99D4 /* testProjecct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProjecct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB878CE2AECD7DE001A99D4 /* testProjecctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testProjecctApp.swift; sourceTree = "<group>"; };
 		ACB878D02AECD7DE001A99D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +53,8 @@
 		ACB878E02AECE5BC001A99D4 /* simpleView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleView2.swift; sourceTree = "<group>"; };
 		ACB878E22AECEA3C001A99D4 /* mtbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mtbutton.swift; sourceTree = "<group>"; };
 		ACB878E42AECEC94001A99D4 /* textModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textModule.swift; sourceTree = "<group>"; };
+		ACBE18252AF06C010077DEEF /* state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
+		ACBE18292AF071330077DEEF /* mainsetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainsetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC6743D82AF0BD3B0032AC88 /* tapview */ = {
+			isa = PBXGroup;
+			children = (
+				AC6743D92AF0BD630032AC88 /* modal.swift */,
+				AC6743DB2AF0C0FF0032AC88 /* Detail.swift */,
+				AC6743DD2AF0C3E10032AC88 /* navigation.swift */,
+				AC6743DF2AF0C7ED0032AC88 /* myTap.swift */,
+				AC6743E12AF0CA4D0032AC88 /* tapDetail.swift */,
+			);
+			path = tapview;
+			sourceTree = "<group>";
+		};
+		AC6743E42AF0DAA50032AC88 /* mypage1 */ = {
+			isa = PBXGroup;
+			children = (
+				AC6743E52AF0DABD0032AC88 /* myApp.swift */,
+				AC6743E72AF0DD810032AC88 /* FirstListpage.swift */,
+				AC6743E92AF0DE1C0032AC88 /* Onboding1.swift */,
+			);
+			path = mypage1;
+			sourceTree = "<group>";
+		};
 		AC68331E2AEF652400F957D4 /* testIntro */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +97,15 @@
 				AC6833212AEF654900F957D4 /* textBox.swift */,
 			);
 			path = testIntro;
+			sourceTree = "<group>";
+		};
+		AC6833232AEFA17200F957D4 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				AC6833262AEFA32D00F957D4 /* ListLoop.swift */,
+				ACBE18252AF06C010077DEEF /* state.swift */,
+			);
+			path = list;
 			sourceTree = "<group>";
 		};
 		ACB878C22AECD7DE001A99D4 = {
@@ -72,6 +127,10 @@
 		ACB878CD2AECD7DE001A99D4 /* testProjecct */ = {
 			isa = PBXGroup;
 			children = (
+				AC6743E42AF0DAA50032AC88 /* mypage1 */,
+				AC6743D82AF0BD3B0032AC88 /* tapview */,
+				ACBE18272AF071160077DEEF /* settingList */,
+				AC6833232AEFA17200F957D4 /* list */,
 				AC68331E2AEF652400F957D4 /* testIntro */,
 				ACB878E62AECEE2D001A99D4 /* simpleview2 */,
 				ACB878CE2AECD7DE001A99D4 /* testProjecctApp.swift */,
@@ -99,6 +158,15 @@
 				ACB878E42AECEC94001A99D4 /* textModule.swift */,
 			);
 			name = simpleview2;
+			sourceTree = "<group>";
+		};
+		ACBE18272AF071160077DEEF /* settingList */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE18292AF071330077DEEF /* mainsetting.swift */,
+				AC6743D52AF091F90032AC88 /* lecturecode.swift */,
+			);
+			name = settingList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,13 +239,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6833272AEFA32D00F957D4 /* ListLoop.swift in Sources */,
+				AC6743E02AF0C7ED0032AC88 /* myTap.swift in Sources */,
 				AC6833202AEF654100F957D4 /* introMain.swift in Sources */,
+				AC6743E62AF0DABD0032AC88 /* myApp.swift in Sources */,
 				ACB878D12AECD7DE001A99D4 /* ContentView.swift in Sources */,
+				AC6743E82AF0DD810032AC88 /* FirstListpage.swift in Sources */,
 				ACB878CF2AECD7DE001A99D4 /* testProjecctApp.swift in Sources */,
+				ACBE18262AF06C010077DEEF /* state.swift in Sources */,
 				ACB878E32AECEA3C001A99D4 /* mtbutton.swift in Sources */,
 				ACB878DF2AECDEBB001A99D4 /* simpleView.swift in Sources */,
+				AC6743DE2AF0C3E10032AC88 /* navigation.swift in Sources */,
+				AC6743EA2AF0DE1C0032AC88 /* Onboding1.swift in Sources */,
+				AC6743D62AF091F90032AC88 /* lecturecode.swift in Sources */,
+				AC6743DC2AF0C0FF0032AC88 /* Detail.swift in Sources */,
 				ACB878E52AECEC94001A99D4 /* textModule.swift in Sources */,
 				AC6833222AEF654900F957D4 /* textBox.swift in Sources */,
+				AC6743DA2AF0BD630032AC88 /* modal.swift in Sources */,
+				AC6743E22AF0CA4D0032AC88 /* tapDetail.swift in Sources */,
+				ACBE182A2AF071330077DEEF /* mainsetting.swift in Sources */,
 				ACB878E12AECE5BC001A99D4 /* simpleView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

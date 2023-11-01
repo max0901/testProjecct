@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct Onboding1: View {
+    @Binding var showModal:Bool
+    let onboardingTitle:String
+    let backgroundColor:Color
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+          backgroundColor.ignoresSafeArea()
+          
+            if(onboardingTitle=="온보딩3"){
+                VStack{
+                    Text(onboardingTitle)
+                    Button(action: {
+                        showModal=false
+                    }, label: {
+                        Text("start")
+                    })
+                }
+            }else{
+                Text(onboardingTitle)
+            }
+        }
     }
 }
 
 #Preview {
-    Onboding1()
+    Onboding1(showModal: .constant(true), onboardingTitle: "온보딩 테스트",backgroundColor: .blue)
 }

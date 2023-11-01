@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct Detail: View {
+    @Binding var showModal:Bool
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("모달페이지입니다")
+        Button(action: {
+            showModal=false
+        }, label: {
+            Text("닫기")
+        })
     }
 }
 
 #Preview {
-    Detail()
+    Detail(showModal: .constant(true))
+    //constant 언제나 같은값
+    
 }

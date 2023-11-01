@@ -8,8 +8,34 @@
 import SwiftUI
 
 struct navigation: View {
+    let titles=["디테일뷰로 이동하기","디테일뷰로 이동하기"]
+    let descriptions=["데스티네이션 입니다","데스티네이션 입니다1"]
+    @State var showModal:Bool=false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List{
+                ForEach([0,1],id:\.self){
+                    index in
+                    NavigationLink{
+                        Text(descriptions[index])
+                    }label: {
+                        Text(titles[index])
+                    }
+                }
+            }
+            .toolbar{
+                ToolbarItem{
+                    Button(action: {
+                        showModal=true
+                    }, label: {
+                        Text("add")
+                    })
+                }
+            }
+            .sheet(isPresented: $showModal, content: {
+                Text("아이템추가페이지입니다")
+            })
+        }
     }
 }
 

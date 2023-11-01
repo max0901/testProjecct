@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct modal: View {
+    @State var showModal:Bool=false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("메인페이지 입니다")
+            Button(action: {
+                showModal=true
+            }, label: {
+                Text("Modal 화면 전환")
+            })
+        }.sheet(isPresented: $showModal) {
+            Detail(showModal:$showModal)
+            //리액트 파라미터넘겨주듯이 이름과 값을 넘긴다
+        }
     }
 }
 
