@@ -15,6 +15,11 @@
 		ACB2B0322AF1E30B00DE649E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB2B0302AF1E30B00DE649E /* LaunchScreen.storyboard */; };
 		ACB2B03C2AF23B5E00DE649E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2B03B2AF23B5E00DE649E /* MyTableViewController.swift */; };
 		ACB2B03E2AF23FF600DE649E /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB2B03D2AF23FF600DE649E /* DelegateViewController.swift */; };
+		ACC7D8892AF4B17C00C81217 /* orangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D8882AF4B17C00C81217 /* orangeViewController.swift */; };
+		ACC7D88B2AF4B1BF00C81217 /* GgreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D88A2AF4B1BF00C81217 /* GgreenViewController.swift */; };
+		ACC7D88D2AF4BB4400C81217 /* EleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D88C2AF4BB4400C81217 /* EleViewController.swift */; };
+		ACC7D8902AF4D4CA00C81217 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D88F2AF4D4CA00C81217 /* ProfileViewController.swift */; };
+		ACC7D8922AF4DA3D00C81217 /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7D8912AF4DA3D00C81217 /* ProfileDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		ACB2B0332AF1E30B00DE649E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB2B03B2AF23B5E00DE649E /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		ACB2B03D2AF23FF600DE649E /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		ACC7D8882AF4B17C00C81217 /* orangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orangeViewController.swift; sourceTree = "<group>"; };
+		ACC7D88A2AF4B1BF00C81217 /* GgreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GgreenViewController.swift; sourceTree = "<group>"; };
+		ACC7D88C2AF4BB4400C81217 /* EleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleViewController.swift; sourceTree = "<group>"; };
+		ACC7D88F2AF4D4CA00C81217 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		ACC7D8912AF4DA3D00C81217 /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		ACB2B0242AF1E30900DE649E /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				ACC7D88E2AF4C23700C81217 /* simpleApp */,
 				ACB2B0252AF1E30900DE649E /* AppDelegate.swift */,
 				ACB2B0272AF1E30900DE649E /* SceneDelegate.swift */,
 				ACB2B0292AF1E30900DE649E /* ViewController.swift */,
@@ -69,8 +80,20 @@
 				ACB2B0332AF1E30B00DE649E /* Info.plist */,
 				ACB2B03B2AF23B5E00DE649E /* MyTableViewController.swift */,
 				ACB2B03D2AF23FF600DE649E /* DelegateViewController.swift */,
+				ACC7D8882AF4B17C00C81217 /* orangeViewController.swift */,
+				ACC7D88A2AF4B1BF00C81217 /* GgreenViewController.swift */,
+				ACC7D88C2AF4BB4400C81217 /* EleViewController.swift */,
 			);
 			path = storyboard;
+			sourceTree = "<group>";
+		};
+		ACC7D88E2AF4C23700C81217 /* simpleApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7D88F2AF4D4CA00C81217 /* ProfileViewController.swift */,
+				ACC7D8912AF4DA3D00C81217 /* ProfileDetailViewController.swift */,
+			);
+			path = simpleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +171,12 @@
 				ACB2B02A2AF1E30900DE649E /* ViewController.swift in Sources */,
 				ACB2B0262AF1E30900DE649E /* AppDelegate.swift in Sources */,
 				ACB2B0282AF1E30900DE649E /* SceneDelegate.swift in Sources */,
+				ACC7D8892AF4B17C00C81217 /* orangeViewController.swift in Sources */,
+				ACC7D8922AF4DA3D00C81217 /* ProfileDetailViewController.swift in Sources */,
 				ACB2B03C2AF23B5E00DE649E /* MyTableViewController.swift in Sources */,
+				ACC7D8902AF4D4CA00C81217 /* ProfileViewController.swift in Sources */,
+				ACC7D88B2AF4B1BF00C81217 /* GgreenViewController.swift in Sources */,
+				ACC7D88D2AF4BB4400C81217 /* EleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
