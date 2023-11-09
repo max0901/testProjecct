@@ -16,6 +16,11 @@
 		ACBED6C52AFB18AA0063A1FE /* OnBoardingContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBED6C42AFB18AA0063A1FE /* OnBoardingContent.swift */; };
 		ACBED6C72AFB19290063A1FE /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBED6C62AFB19290063A1FE /* OnboardingViewModel.swift */; };
 		ACBED6C92AFB22200063A1FE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBED6C82AFB22200063A1FE /* OnboardingView.swift */; };
+		ACC6B8B42AFC60B90095A652 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6B8B32AFC60B90095A652 /* Path.swift */; };
+		ACC6B8B62AFC60C80095A652 /* PathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6B8B52AFC60C80095A652 /* PathType.swift */; };
+		ACC6B8B82AFC63E90095A652 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6B8B72AFC63E90095A652 /* HomeView.swift */; };
+		ACC6B8BA2AFC63EF0095A652 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6B8B92AFC63EF0095A652 /* TodoView.swift */; };
+		ACC6B8BC2AFC63FB0095A652 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6B8BB2AFC63FB0095A652 /* MemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		ACBED6C42AFB18AA0063A1FE /* OnBoardingContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContent.swift; sourceTree = "<group>"; };
 		ACBED6C62AFB19290063A1FE /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		ACBED6C82AFB22200063A1FE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		ACC6B8B32AFC60B90095A652 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		ACC6B8B52AFC60C80095A652 /* PathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathType.swift; sourceTree = "<group>"; };
+		ACC6B8B72AFC63E90095A652 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ACC6B8B92AFC63EF0095A652 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		ACC6B8BB2AFC63FB0095A652 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +156,8 @@
 		ACBED6BE2AFB186C0063A1FE /* Path */ = {
 			isa = PBXGroup;
 			children = (
+				ACC6B8B32AFC60B90095A652 /* Path.swift */,
+				ACC6B8B52AFC60C80095A652 /* PathType.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -161,6 +173,7 @@
 		ACBED6C02AFB187B0063A1FE /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				ACC6B8B72AFC63E90095A652 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -168,6 +181,7 @@
 		ACBED6C12AFB18810063A1FE /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				ACC6B8B92AFC63EF0095A652 /* TodoView.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 		ACBED6C22AFB18850063A1FE /* MemoT */ = {
 			isa = PBXGroup;
 			children = (
+				ACC6B8BB2AFC63FB0095A652 /* MemoView.swift */,
 			);
 			path = MemoT;
 			sourceTree = "<group>";
@@ -257,11 +272,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC6B8B82AFC63E90095A652 /* HomeView.swift in Sources */,
+				ACC6B8B62AFC60C80095A652 /* PathType.swift in Sources */,
+				ACC6B8BA2AFC63EF0095A652 /* TodoView.swift in Sources */,
 				ACBED6C72AFB19290063A1FE /* OnboardingViewModel.swift in Sources */,
+				ACC6B8B42AFC60B90095A652 /* Path.swift in Sources */,
 				ACBED6C52AFB18AA0063A1FE /* OnBoardingContent.swift in Sources */,
 				ACBED6A82AFB16540063A1FE /* ContentView.swift in Sources */,
 				ACBED6C92AFB22200063A1FE /* OnboardingView.swift in Sources */,
 				ACBED6A62AFB16540063A1FE /* voiceMemoApp.swift in Sources */,
+				ACC6B8BC2AFC63FB0095A652 /* MemoView.swift in Sources */,
 				ACBED6BD2AFB17600063A1FE /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
