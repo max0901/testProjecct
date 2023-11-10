@@ -1,5 +1,5 @@
 //
-//  TodoView.swift
+//  HomeView.swift
 //  voiceMemo
 //
 //  Created by 이정민 on 11/9/23.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct TodoView: View {
+struct Home: View {
     var body: some View {
-        Text("todo")
+        Text("Home")
     }
 }
 
 #Preview {
-    TodoView()
+    Home()
 }

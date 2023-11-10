@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  MemoVIew.swift
 //  voiceMemo
 //
 //  Created by 이정민 on 11/9/23.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct Memo: View {
     var body: some View {
-        Text("Home")
+        Text("memo")
     }
 }
 
 #Preview {
-    HomeView()
+    Memo()
 }
